@@ -8,7 +8,8 @@
 import Foundation
 import SwiftData
 
-final class User {
+@Model
+final class User: Identifiable {
     var timestamp: Date
     var firstName: String
 
